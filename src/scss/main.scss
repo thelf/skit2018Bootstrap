@@ -1,0 +1,10 @@
+// Import All BOOTSTRAP SCSS FILES
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import All SCSS DIRECTORY FILES
+@import "variables";
+@import "mixins";
+@import "0-plugins/plugins-dir";
+@import "1-base/base-dir";
+@import "2-layouts/layouts-dir";
+@import "3-modules/modules-dir";
