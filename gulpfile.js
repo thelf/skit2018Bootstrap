@@ -21,6 +21,7 @@ var src           = './src/',
 gulp.task('sass', function(){
   return gulp.src([src + 'scss/**/*.scss'])
     .pipe(sourcemaps.init())
+    .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(rename({ basename: 'style'}))
